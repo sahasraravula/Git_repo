@@ -1,22 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Sahasra Ravula – Personal Portfolio
+WiCS Web Dev Project
 
-## Getting Started
+This is my personal portfolio website built to showcase my projects, technical skills, and progress as a Computer Science student at the University of Illinois Chicago.
 
-First, run the development server:
+The goal of this site is simple: present my work clearly and track my growth as I build real-world software projects.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+About Me
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I’m a Computer Science student at UIC focused on software development and problem-solving. I enjoy building practical applications and strengthening my foundation in data structures, algorithms, and system design.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Features
+- Clean and responsive UI
+- Project showcase with detailed descriptions
+- Resume access
+- Contact section
+- Simple and minimal design focused on clarity
+
+
+Tech Stack
+- Frontend: HTML, CSS, JavaScript (or React if used)
+- Version Control: Git & GitHub
+- Deployment: (Add this e.g., Vercel / Netlify / GitHub Pages)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
