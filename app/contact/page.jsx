@@ -35,21 +35,29 @@ export default function Contact() {
         }}
       >
 
-        <div>Email: sahasra@example.com</div>
+        <div>Email: sahasra.ravula6@gmail.com</div>
 
-        <div>
-          LinkedIn: 
-          <a href="#" style={{ marginLeft: "10px", color: "#5A5033" }}>
+        <p>
+          LinkedIn:{" "}
+          <a 
+            href="https://linkedin.com/in/sahasraravula" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
             linkedin.com/in/sahasraravula
           </a>
-        </div>
-
-        <div>
-          GitHub:
-          <a href="#" style={{ marginLeft: "10px", color: "#5A5033" }}>
-            github.com/sahasraravula
-          </a>
-        </div>
+        </p>
+          <p>
+            GitHub:{" "}
+            <a 
+              href="https://github.com/sahasraravula" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              github.com/sahasraravula
+            </a>
+          </p>
+        
 
       </div>
 

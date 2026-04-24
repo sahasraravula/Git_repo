@@ -78,11 +78,11 @@ body {
 }
 .photoSection{
   position: relative;
-  width: 360px;   
-  height: 420px;
+  width: 420px;   
+  height: 430px;
   flex-shrink: 0;
-  margin-left: -120px;
-  margin-top: -20px;
+  margin-left: 10px;
+  margin-top: 40px;
 }
 
 .photo{
@@ -106,17 +106,121 @@ body {
 }
 
 .photo2{
-  left: 90px;
+  left: 120px;
   top: 15px;
   transform: rotate(-3deg);
 }
 
 .photo3{
-  left: 180px;
+  left: 240px;
   transform: rotate(6deg);
 }
 
+/* Links styling */
 
+a {
+  color: #5A5033;
+  text-decoration: underline;
+  transition: opacity 0.2s ease;
+}
 
+a:hover {
+  opacity: 0.7;
+}
 
+.homePage {
+  min-height: 100vh;
+  background: #f5f1e8;
+}
+
+.homeHero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  padding: 40px 80px;
+}
+
+.homePhotoStack {
+  position: relative;
+  width: 420px;
+  height: 420px;
+}
+
+.homePhoto {
+  position: absolute;
+  width: 220px;
+  height: 320px;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  background: #ddd;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+.homePhoto:hover {
+  z-index: 10;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+.stackImg {
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.photo1 {
+  left: 0;
+  top: 70px;
+  transform: rotate(-8deg);
+  z-index: 1;
+}
+
+.photo2 {
+  left: 100px;
+  top: 30px;
+  transform: rotate(-2deg);
+  z-index: 2;
+}
+
+.photo3 {
+  left: 210px;
+  top: 65px;
+  transform: rotate(8deg);
+  z-index: 3;
+}
+.homePhoto.photo1:hover {
+  transform: scale(1.06) rotate(-2deg);
+}
+
+.homePhoto.photo2:hover {
+  transform: scale(1.06) rotate(0deg);
+}
+
+.homePhoto.photo3:hover {
+  transform: scale(1.06) rotate(2deg);
+}
+
+.homeContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.homeName {
+  font-size: 5.5rem;
+  color: #7a6a36;
+  margin-bottom: 40px;
+  line-height: 1;
+}
+
+.introBox {
+  background: #b4ac8b;
+  border: 8px solid #3f3f1e;
+  padding: 35px 45px;
+  max-width: 520px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #1f1f1f;
+}
 

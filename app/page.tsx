@@ -1,57 +1,51 @@
 import Image from "next/image";
 
-
 export default function Home() {
   return (
-    <main
-      style={{
-        backgroundColor: "989C79",
-        minHeight: "100vh",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center"
-      }}
-    >
-      
-      <div
-        style={{display: "flex",alignItems: "center",gap: "70px",}}
-      >
+    <main className="homePage">
+      <section className="homeHero">
+        <div className="homePhotoStack">
+          <div className="homePhoto photo1">
+            <Image
+              src="/selfpic2.png"
+              alt="Home photo 1"
+              fill
+              className="stackImg"
+            />
+          </div>
 
-        <Image
-          src="/selfpic.jpeg"
-          alt="profile"
-          width={260}
-          height={260}
-          style={{borderRadius: "50%",objectFit: "cover",aspectRatio: "1 / 1"}}
-        />
+          <div className="homePhoto photo2">
+            <Image
+              src="/selfpic3.jpeg"
+              alt="Home photo 2"
+              fill
+              className="stackImg"
+            />
+          </div>
 
-        <div>
-          <h1
-            style={{fontSize: "90px",color: "#776A41",marginBottom: "30px",}}
-          >
-            Sahasra Ravula
-          </h1>
+          <div className="homePhoto photo3">
+            <Image
+              src="/selfpic.jpeg"
+              alt="Home photo 3"
+              fill
+              className="stackImg"
+            />
+          </div>
+        </div>
 
-          <div
-            style={{backgroundColor: "#999578",border: "8px solid #3A3A1E",padding: "35px",width: "450px"}}
-          >
-            <h2>Computer Science Student @ UIC</h2>
+        <div className="homeContent">
+          <h1 className="homeName">Sahasra Ravula</h1>
 
-            <p style={{ marginTop: "10px" }}>
-              Building · Learning · Improving
-            </p>
-
-            <p style={{ marginTop: "15px" }}>
-              Building real world projects based on python and strengthening
-              my foundation in data structures and systems
+          <div className="introBox">
+            <p>Computer Science Student @ UIC</p>
+            <p>Building · Learning · Improving</p>
+            <p>
+              Building real world projects based on python and strengthening my
+              foundation in data structures and systems
             </p>
           </div>
         </div>
-      </div>
+      </section>
     </main>
-    
   );
 }
-
-
-
