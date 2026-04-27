@@ -1,7 +1,7 @@
 # Personal Portfolio Website
 
 ## Live Demo
-[View Website] https://personalwebsite-flax-rho.vercel.app
+https://personalwebsite-flax-rho.vercel.app
 
 ## Overview
 This is a personal portfolio website designed to showcase my projects, skills, and background as a Computer Science student. It provides a clean and interactive way for recruiters and peers to explore my work.
